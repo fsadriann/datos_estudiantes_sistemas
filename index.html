@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="forms">
+        <form action="">
+            <h1>Datos del estudiante</h1>
+
+            <!--- Nombres / apellid.--->
+            <p>
+                Apellidos: <input type="text" name="" id="apellidos"> Nombres: <input type="text" name="" id="nombres">
+            </p>
+
+            <!--- Nacimiento ---->
+            <p>
+                Fecha de nacimiento: <input type="date" name="" id="fecha_nacimiento"> Lugar de nacimiento: <input type="text" name="" id="lugar_nacimiento"> Edad: <input type="number" name="" id="edad" style="width: 40px;">
+            </p>
+
+            <!--- Tipo Documento --->
+            <p>
+                Tipo Documento Identidad: T.I: <input type="checkbox" name="" id="ti"> CC: <input type="checkbox" name="" id="cc"> Número Documento Identidad
+            </p>
+
+            <p>
+                Lugar Expedición Documento: <input type="text" name="" id="lugar_documento">
+            </p>
+
+            <!--- Dirección --->
+            <p>
+                Dirección: <input type="text" id="direccion"> Barrio: <input type="text" id="barrio"> Ciudad: <input type="text" id="cuidad">
+            </p>
+
+            <!--- Contacto ---->
+            <p>
+                Teléfono: <input type="text" id="tel_estudiante"> Celular: <input type="text" id="cel_estudiante">
+            </p>
+
+            <p>
+                E-mail personal: <input type="email" id="email_p"> E-mail Inst: <input type="email" name="" id="email_inst">
+            </p>
+
+            <!--- Datos salud --->
+            <p>
+                Tipo de Sangre
+                <select name="" id="tipo_sangre">
+                    <option value="">Selec. tipo de sangre</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select>
+                EPS: <input type="text" id="eps">
+            </p>
+
+            <p>
+                ¿Sufre alguna enfermedad? 
+                Si <input type="checkbox" id="si">
+                No <input type="checkbox" id="no">
+                ¿Cuál?: <input type="text"id="enfermedad">
+            </p>
+
+            <!--- Estrato ----->
+            <p>
+                Estrato Socioeconómico
+                <select name="" id="estrato">
+                    <option value="">Seleccione estrato</option>
+                    <option value="1">1 bajo-bajo</option>
+                    <option value="2">2 bajo</option>
+                    <option value="3">3 medio-bajo</option>
+                    <option value="4">4 medio</option>
+                    <option value="5">5 medio-alto</option>
+                    <option value="6">6 alto</option>
+                </select> 
+                Familias en acción: 
+                Si <input type="checkbox" name="" id="si">
+                No <input type="checkbox" name="" id="no">
+            </p>
+
+            <!--- Religión ---->
+            <p>
+                Tipo de religión: 
+                <select name="" id="religion">
+                    <option value="">Selecc. religión</option>
+                    <option value="cristianismo">Cristiano/a</option>
+                    <option value="catolicismo">Católico/a</option>
+                    <option value="protestantismo">Protestante (evangélico, anglicano...)</option>
+                    <option value="judaismo">Judío(a)</option>
+                    <option value="islamismo">Islamista</option>
+                    <option value="budismo">Budista</option>
+                    <option value="ateo">Ateo</option>
+                    <option value="otros">Otro</option>
+                </select>
+            </p>
+
+            <!--- Relación padres --->
+            <p>
+                Relación padres: 
+                Casados: <input type="checkbox" id="casados">
+                Divorciados: <input type="checkbox" id="divorciados">
+                Unión libre: <input type="checkbox" name="" id="union_libre">
+                Otro: <input type="text" name="" id="otro">
+            </p>
+
+            <!---- Computadora/Internet ----->
+            <p>
+                Computadora en casa: 
+                Si <input type="checkbox" name="" id="si_pc">
+                No <input type="checkbox" name="" id="no_pc">
+
+                Internet en casa:
+                Si <input type="checkbox" name="" id="si_int">
+                No <input type="checkbox" name="" id="no_int">
+            </p>
+
+            <!---------------------->
+
+            <p>
+                ¿Cuáles son las principales actividades que realiza en su tiempo libre?<br/>
+                <textarea name="" id="actividades" cols="30" rows="5"></textarea>
+            </p>
+            <p>
+                ¿Cuáles son sus propósitos y expectativas personales y académicas como estudiante en la Especialidad en Sistemas? <br>
+                <textarea name="" id="actividades" cols="30" rows="5"></textarea>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
